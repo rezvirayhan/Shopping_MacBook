@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Start Bootstrap CSS Link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- End Bootstrap CSS Link -->
+    <title>Assignment-5</title>
+</head>
+<body> 
+    <!-- Start Main Header -->
+    <main>
+        <section id="main-section">
+            <div class="container">
+               <div class="row mt-5 mb-3">
+                     <div class="col-lg-5 col-md-7 col-sm-12">
+                         <img class="img-thumbnail" src="img/mac.png" alt="Mac-Book-Pro">
+                    </div>
+                    <div class="col-lg-7 col-md-5 col-sm-12">
+                        <h1>Customize Your Blue 24-inch <span style="color: #9308ab;">iMac</span> with <span style="color: orange;">Apple</span> Chip</span></h1>
+                        <p>
+                            Apple M1 chip with 8-core CPU with 4 preformane cores and 4 efficiency cores, 7-core GPU, 16-core Neural Engine 8GB unified memory 256GB SSD Storage Two Yhunderbolt/USB 4 ports Magic Mouse Magic KeyBoard Us English
+                        </p>
+                      <div class="memory-main mb-4">
+                           <h4>Memory</h4>
+                         <button class="btn btn-outline-dark" id="frist-Memorybutton">8GB Unified Memory</button>
+                          <button class="btn btn-outline-dark" id="second-Memorybutton">16GB Unified Memory</button>
+                      </div>
+                      <div class="main-ssd mt-4 mb-4">
+                          <h4>Storage</h4>
+                          <button class="btn btn-outline-dark" id="fristBtn-storage">256GB SSD Storage</button>
+                          <button class="btn btn-outline-dark" id="secondBtn-storage">512GB SSD Storage</button>
+                          <button class="btn btn-outline-dark" id="thirdBtn-storage">1TB SSD Storage</button>
+                      </div>
+                      <div class="main-option mt-4 mb-4">
+                          <h4>Chose Your Delivery Option</h4>
+                          <button class="btn btn-outline-dark" id="Free-Delivery">Friday Aug 25 FREE Prime Delivery</button>
+                          <button class="btn btn-outline-dark" id="Charge-Delivery">Friday Aug 21 Delivery Charge $20</button>
+                      </div>
+                      <div id="total-main" class="mt-5 mb-3">
+                         <div class="row">
+
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="d-flex justify-content-between">
+                                    <h5>Best Price</h5>
+                                    <h5>$<Span id="Best-price">1299</Span></h5>
+                                </div>
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                    <h5>Extra Memory Cost</h5>
+                                    <h5>$<Span id="memory-const">00</Span></h5>
+                                </div>
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                    <h5>Extra Storage Cost</h5>
+                                    <h5>$<Span id="storage-cost">00</Span></h5>
+                                </div>
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                    <h5>Extra Delivery Cost</h5>
+                                    <h5>$<Span id="charge">00</Span></h5>
+                                </div>
+                                <hr style="border: 1px solid black;">
+                                <div class="d-flex justify-content-between">
+                                    <h5>Total Price </h5>
+                                    <h5> $<Span id="total-Price">1299</Span></h5>
+                                </div>
+                                <hr>
+                            </div>
+                         </div>
+                      </div>
+                      <div class="mt-5">
+                          <p class="font-weight-bold">Add Pomo Code</p>
+                         <div class="row">
+                             <div class="col-lg-8 col-md-7 col-sm-12">
+                                <div class="input-group">
+                                    <input id="Promo-input" class="form-control" type="text" placeholder="Add Pomo Code stevekaku">
+                                    </div>
+                             </div>
+                             <div class="col-lg-4 col-md-5 col-sm-12"><button class="btn btn-outline-success " onclick="discound()">Apply</button></div>
+                         </div>
+                      </div>
+                    </div>
+                    </div>
+              </div>
+            </div>
+            <hr>
+            <!-- Start Footer Section -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 mt-4">
+                      <h2 class="text-center">Total Price $ <span id="Toatal-Amunt">1299</span> </h2>
+                    </div>
+                </div>
+            <!-- Start Footer Section -->
+
+        </section>
+        
+        <!-- Start Configer Section -->
+
+    </main>
+    <!-- End Main Header -->
+
+
+
+
+
+
+
+
+    <!-- Start Bootstrap JS Link -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- End Bootstrap JS Link -->
+    <script src="js/app.js"></script>
+</body>
+</html>
